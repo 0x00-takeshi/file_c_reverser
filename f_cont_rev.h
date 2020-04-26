@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>
+#include "str_reversions.h"
 
 #ifndef FILE_OPS_TEST_F_CONT_REV_H
 #define FILE_OPS_TEST_F_CONT_REV_H
@@ -31,20 +32,19 @@ extern int reverse(char *argv, char *argv2)
 
     int w_len, index = 0, u_index = 0;
     char word[32];
-    char* word_rev[32];
+    char word_rev[32];
     char text[4096][32], text_rev[4096][32];
 
     while (fgets(word, sizeof(word), ftr)) {
-        printf("ORIGINAL %i WORD IS : %s", u_index, word);
-        for (int i = (int)strlen(word); i > 0; i--)
+        printf("ORIGINAL %i WORD IS : %s \n", u_index, word);
+        for (int i = 0; strlen(word) > i; i++)
         {
-            strncpy_s(*word_rev, 12, &word[i], 32);
-            index++;
+          reverse_rec(word, strlen(word)-1);
+          printf("REVERSED %i WORD IS : %s \n", u_index, word);
         }
-        printf("REVERSED %i WORD IS : %s", u_index, *word_rev);
         u_index++;
     }
-    return 0;
+    return 0;//strcpy(word_rev, word);
 }
 #endif //FILE_OPS_TEST_F_CONT_REV_H
 

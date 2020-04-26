@@ -79,10 +79,16 @@
 		<Unit filename="/home/takeshi/CLionProjects/file_ops_test/f_cont_rev.h">
 			<Option target="file_ops_test"/>
 		</Unit>
+		<Unit filename="/home/takeshi/CLionProjects/file_ops_test/get_cwd_unix.h">
+			<Option target="file_ops_test"/>
+		</Unit>
 		<Unit filename="/home/takeshi/CLionProjects/file_ops_test/get_cwd_win.h">
 			<Option target="file_ops_test"/>
 		</Unit>
 		<Unit filename="/home/takeshi/CLionProjects/file_ops_test/main.c">
+			<Option target="file_ops_test"/>
+		</Unit>
+		<Unit filename="/home/takeshi/CLionProjects/file_ops_test/str_reversions.h">
 			<Option target="file_ops_test"/>
 		</Unit>
 		<Unit filename="/home/takeshi/CLionProjects/file_ops_test/CMakeLists.txt">

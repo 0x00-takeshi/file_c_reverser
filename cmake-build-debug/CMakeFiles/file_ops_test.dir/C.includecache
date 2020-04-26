@@ -13,6 +13,20 @@ string.h
 -
 errno.h
 -
+str_reversions.h
+/home/takeshi/CLionProjects/file_ops_test/str_reversions.h
+
+/home/takeshi/CLionProjects/file_ops_test/get_cwd_unix.h
+unistd.h
+-
+stdio.h
+-
+malloc.h
+-
+string.h
+-
+stddef.h
+-
 
 /home/takeshi/CLionProjects/file_ops_test/get_cwd_win.h
 direct.h
@@ -27,6 +41,12 @@ string.h
 /home/takeshi/CLionProjects/file_ops_test/main.c
 get_cwd_win.h
 /home/takeshi/CLionProjects/file_ops_test/get_cwd_win.h
+get_cwd_unix.h
+/home/takeshi/CLionProjects/file_ops_test/get_cwd_unix.h
 f_cont_rev.h
 /home/takeshi/CLionProjects/file_ops_test/f_cont_rev.h
+
+/home/takeshi/CLionProjects/file_ops_test/str_reversions.h
+string.h
+-
 

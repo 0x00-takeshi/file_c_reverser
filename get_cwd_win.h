@@ -18,7 +18,7 @@
 #include <string.h> // strlen
 
 
-extern int win_CWD( void )
+extern int GET_CWD( void )
 {
     char* buffer;
 
