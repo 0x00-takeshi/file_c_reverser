@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/msys64/home/GPC-463/file_c_reverser/main.c" "C:/msys64/home/GPC-463/file_c_reverser/cmake-build-debug/CMakeFiles/file_ops_test.dir/main.c.obj"
+  "/home/takeshi/CLionProjects/file_ops_test/main.c" "/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/CMakeFiles/file_ops_test.dir/main.c.o"
   )
-set(CMAKE_C_COMPILER_ID "MSVC")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
