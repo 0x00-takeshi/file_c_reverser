@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/takeshi/CLionProjects/file_ops_test/f_cont_rev.h
+C:/msys64/home/GPC-463/file_c_reverser/f_cont_rev.h
 stdio.h
 -
 string.h
@@ -14,7 +14,19 @@ string.h
 errno.h
 -
 
-/home/takeshi/CLionProjects/file_ops_test/main.c
+C:/msys64/home/GPC-463/file_c_reverser/get_cwd_win.h
+direct.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+C:/msys64/home/GPC-463/file_c_reverser/main.c
 f_cont_rev.h
-/home/takeshi/CLionProjects/file_ops_test/f_cont_rev.h
+C:/msys64/home/GPC-463/file_c_reverser/f_cont_rev.h
+get_cwd_win.h
+C:/msys64/home/GPC-463/file_c_reverser/get_cwd_win.h
 

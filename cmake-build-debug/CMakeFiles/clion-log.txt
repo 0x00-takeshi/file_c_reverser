@@ -1,4 +1,4 @@
-/home/takeshi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/takeshi/CLionProjects/file_ops_test
+C:\Users\GPC-463\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.6668.126\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\msys64\home\GPC-463\file_c_reverser
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/takeshi/CLionProjects/file_ops_test/cmake-build-debug
+-- Build files have been written to: C:/msys64/home/GPC-463/file_c_reverser/cmake-build-debug

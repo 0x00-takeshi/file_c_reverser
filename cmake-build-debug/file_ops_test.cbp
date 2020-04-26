@@ -4,85 +4,96 @@
 	<Project>
 		<Option title="file_ops_test"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug"/>
+				<Option working_dir="C:/msys64/home/GPC-463/file_c_reverser/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug"/>
+				<Option working_dir="C:/msys64/home/GPC-463/file_c_reverser/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="file_ops_test">
-				<Option output="/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/file_ops_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug"/>
+				<Option output="C:/msys64/home/GPC-463/file_c_reverser/cmake-build-debug/file_ops_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/msys64/home/GPC-463/file_c_reverser/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7.2\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_ops_test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 file_ops_test"/>
+					<CompileFile command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="file_ops_test/fast">
-				<Option output="/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/file_ops_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug"/>
+				<Option output="C:/msys64/home/GPC-463/file_c_reverser/cmake-build-debug/file_ops_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/msys64/home/GPC-463/file_c_reverser/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7.2\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_ops_test/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takeshi/CLionProjects/file_ops_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 file_ops_test/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/msys64/home/GPC-463/file_c_reverser/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\msys64\home\GPC-463\file_c_reverser\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/takeshi/CLionProjects/file_ops_test/f_cont_rev.h">
+		<Unit filename="C:/msys64/home/GPC-463/file_c_reverser/f_cont_rev.h">
 			<Option target="file_ops_test"/>
 		</Unit>
-		<Unit filename="/home/takeshi/CLionProjects/file_ops_test/main.c">
+		<Unit filename="C:/msys64/home/GPC-463/file_c_reverser/get_cwd_win.h">
 			<Option target="file_ops_test"/>
 		</Unit>
-		<Unit filename="/home/takeshi/CLionProjects/file_ops_test/CMakeLists.txt">
+		<Unit filename="C:/msys64/home/GPC-463/file_c_reverser/main.c">
+			<Option target="file_ops_test"/>
+		</Unit>
+		<Unit filename="C:/msys64/home/GPC-463/file_c_reverser/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

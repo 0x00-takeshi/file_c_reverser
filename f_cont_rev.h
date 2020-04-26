@@ -30,17 +30,18 @@ extern int reverse(char *argv, char *argv2)
     }
 
     int w_len, index = 0, u_index = 0;
-    char word[32], word_rev[32];
+    char word[32];
+    char* word_rev[32];
     char text[4096][32], text_rev[4096][32];
 
     while (fgets(word, sizeof(word), ftr)) {
         printf("ORIGINAL %i WORD IS : %s", u_index, word);
-        for (int i = (int)strlen(word) - 1; i > 0; i--)
+        for (int i = (int)strlen(word); i > 0; i--)
         {
-            strncpy(word_rev, &word[i], 32);
+            strncpy_s(*word_rev, 12, &word[i], 32);
             index++;
         }
-        printf("REVERSED %i WORD IS : %s", u_index, word_rev);
+        printf("REVERSED %i WORD IS : %s", u_index, *word_rev);
         u_index++;
     }
     return 0;
