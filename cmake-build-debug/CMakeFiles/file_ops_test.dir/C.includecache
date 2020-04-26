@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/takeshi/CLionProjects/file_ops_test/f_cont_rev.h
+stdio.h
+-
+string.h
+-
+errno.h
+-
+
+/home/takeshi/CLionProjects/file_ops_test/main.c
+f_cont_rev.h
+/home/takeshi/CLionProjects/file_ops_test/f_cont_rev.h
+

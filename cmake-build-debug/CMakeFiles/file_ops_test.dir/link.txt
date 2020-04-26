@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/file_ops_test.dir/main.c.o  -o file_ops_test 
