@@ -37,10 +37,11 @@ extern int reverse(char *argv, char *argv2)
 
     while (fgets(word, sizeof(word), ftr)) {
         printf("ORIGINAL %i WORD IS : %s \n", u_index, word);
-        for (int i = 0; strlen(word) > i; i++)
+        if (word != EOF)
         {
           reverse_rec(word, strlen(word)-1);
           printf("REVERSED %i WORD IS : %s \n", u_index, word);
+          fputs(word, ftw);
         }
         u_index++;
     }
